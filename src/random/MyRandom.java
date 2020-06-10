@@ -4,7 +4,7 @@
 package random;
 import java.util.Random;
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class MyRandom {
@@ -13,26 +13,27 @@ public class MyRandom {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		Random myRandomObject= new Random();
+		Random myRandomObject= new Random();  												  //instantiate
+		int maxValue =20;																   	  //setting the max value for my random
+		int n=myRandomObject.nextInt(maxValue);     										  //create "n" as my random Int
+		System.out.println("\t"+n+" has been generated random from 0 to"+maxValue);			  //printing the random number
+		findRandom(n);  // O(n) loop to find our random
 
-		int n=myRandomObject.nextInt(10);
-		System.out.println(n);
-		int k=0;
-		for(int i=0; i<=9;i++)
+
+	}
+
+	public static void findRandom(int n)
+	{ 
+		for(int i=0; i<=n;i++)											//we use a loop from 0 to the current number	
 		{
-			if(i==n)
+			if(i==n) 													//if the curent iteration is equal to our random number
 			{
-				System.out.println("Am gasit random numarul: "+n);
-			// 	break;
+				System.out.println("Your random number is: "+n);		//print text
+
 			}
-			k++;
-			System.out.println("Am facut "+k+" iteratii");
-			
-			
-			
+			else System.out.println("Your number is greater then: " +i); //otherwise we print text
+
 		}
-		
-		
 	}
 
 }
