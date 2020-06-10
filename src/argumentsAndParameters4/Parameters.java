@@ -1,4 +1,4 @@
-/*difference betwin Arguments/Parameters*
+/*difference between Arguments and Parameters*
  * 
  */
 package argumentsAndParameters4;
