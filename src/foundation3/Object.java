@@ -9,8 +9,18 @@ package foundation3;
  */
 
 public class Object {
-	public void about()
-	{
-		System.out.println("The value of an object is a reference to the object");
+	
+	public static void main (String[] args) {
+	about();
+	
 	}
+	
+
+public static void about()
+{
+	System.out.println("An object is an instance of a class");
+	System.out.println("EX: Dacia is an instance of a car");
+	System.out.println("Ex2: Gigel is an instance of a man");
+	
+}
 }

@@ -1,4 +1,5 @@
-/**
+/*
+*  folder to be added
  * 
  */
 package inputAndOutput5;
@@ -17,7 +18,7 @@ public class Input {
 		// askEx();
 		// scannerEx();
 		// usingByteEx();
-		inputCast();
+		// inputCast(); // ?/
 
 	}
 

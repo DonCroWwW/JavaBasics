@@ -12,14 +12,17 @@ package foundation3;
  */
 public class AccesModifiers {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args)
 	{
-		System.out.println("An acces modifier dictates who is gonna be able to acces the method/class");
+		System.out.println("To be continued");
+		about();
 
 
 	}
 
+
+	public static void about()
+	{
+		System.out.println("An acces modifier dictates who is gonna be able to acces the method/class");
+	}
 }

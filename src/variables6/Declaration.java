@@ -14,11 +14,9 @@ public class Declaration {
 	 */
 	public static void main(String[] args) {
 		variableCreation();
-		about();
-		String x="main method x has not the value of x used in our example method ";
-		System.out.println(x);
-		scopeEx();
-		notWorkingEx();
+//		about();
+//		scopeEx();
+//		notWorkingEx(); //declaration inside a not reaching code
 
 	}
     public static void about()
@@ -36,7 +34,7 @@ public class Declaration {
 	public static void scopeEx()
 	{
 		int x=5;
-		System.out.println("In this method x has the value : "+x);
+		System.out.println("In this method x has the value : "+x+" ,but x could have others values in diferents methods and classes ofc");
 	}
 	
 	public static void notWorkingEx()
@@ -48,6 +46,7 @@ public class Declaration {
 		// x++;
 		System.out.println("That's not gonna work since x is declared inside the curly braces");
 		System.out.println("Solution: declare the variable inside method, not curly braces");
+		System.out.println("That's a RUNTIME ERROR");
 		
 	}
 }

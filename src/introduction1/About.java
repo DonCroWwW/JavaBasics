@@ -10,14 +10,17 @@ package introduction1;
 public class About {
 
 	public static void main(String[] args) {
-	System.out.println("About java");
-	System.out.println("How java really works?");
-	
+		about();
 
 	}
 
-	
-	
+	public static void about() {
+		System.out.println("About java");
+		System.out.println("How java really works?");
+	}
+
+
+
 }
 
- 
+

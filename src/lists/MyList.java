@@ -23,19 +23,18 @@ public class MyList {
 	{
 		sortUsingCollections();
 		reverseUsingCollections();
+//		simplyRemove(list); removing elements 1by1 starting with last position
+//		convertArrayToList();
 		
 	}
 	
 	public static void about()
 	{
-//		System.out.println(list.toString());	
-//		System.out.println("If you wanna acces a value of a non existing index, it will return: "+list.indexOf(100));
-//		System.out.println("If u need to know if a list allready containts that number u should use .contains ");
+//		System.out.println(list.toString());
 //		System.out.println("does my list contains the object 3? : "+ list.contains(3));
 // 		System.out.println(list.isEmpty()); // might be usefull
 //   	list.clear will remove every element
-//		simplyRemove(list); removing elements 1by1 starting with last position
-//		convertArrayToList();
+
 	}
  
 	public static List<Integer> initList() //returns an initialized list
@@ -78,7 +77,7 @@ public class MyList {
 		System.out.println("Lista ordonata este: " +myList.toString());
 	}
 	
-	public static void reverseUsingCollections()
+	public static void reverseUsingCollections() //reverse a list using Collections
 	{
 	   List<Integer>myList= new ArrayList();
 	   System.out.println("Lista originala este : "+myList.toString());

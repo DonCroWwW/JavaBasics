@@ -15,10 +15,6 @@ public class Initialization {
 	public static void main(String[] args) {
 		Declaration.variableCreation();
 		reinitiliaztionEx();
-		System.out.println("What if we want a variable that can not be changed? like PI or e? \n we just add final to the declaration of it");
-		final double PI=3.14159;
-		System.out.println("Good to use when we have a global variable that don't need to be changed");
-		final double PIPI=3.141590000;
 		
 		
 		
@@ -35,5 +31,6 @@ public class Initialization {
 			System.out.println("A variable could be reinitialize as many times as we like");
 		}
 	}
+	
 
 }

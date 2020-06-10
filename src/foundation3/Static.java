@@ -15,17 +15,14 @@ public class Static {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		//about();
-		
-	// How can we use a method WITHOUT creating an instance OF THE CLASS? we use Static in method statement
-		//ex1();  
+		about();
+		ex1();  // How can we use a method WITHOUT creating an instance OF THE CLASS? we use Static in method statement
 		
 	
-	// Ok, but how can we acces a method without static?
-	// In this case we need to create an instance 
+		// Ok, but how can we acces a method without static?
+// In this case we need to create an instance 
 //		var x = new Static();  // CREATING AN OBJECT
-//		x.ex2();
-	// What we have done, we acces the method by an instance of the class
+//		x.ex2();// What we have done, we acces the method by an instance of the class
 
 		
 	}

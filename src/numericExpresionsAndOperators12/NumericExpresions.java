@@ -1,4 +1,5 @@
-/**
+/*
+ * more like a cast that a numericExpresions, but it has some sense so i will leave it like that for the mometn
  * 
  */
 package numericExpresionsAndOperators12;
@@ -13,7 +14,7 @@ public class NumericExpresions {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		ex1();//evaluating the expresion is made before casting
+		ex1();//evaluation of expresion is made before casting
 
 	}
 

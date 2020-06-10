@@ -27,7 +27,7 @@ public class MyStringMethods {
 		//equals();
 		//guess();
 		//comparasion();
-		interning(); //!!!!
+		//interning(); //!!!!
 		
 	}
 
