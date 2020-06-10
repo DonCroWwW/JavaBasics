@@ -6,7 +6,7 @@ package arrays;
 import java.util.Arrays;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class MyMethods 

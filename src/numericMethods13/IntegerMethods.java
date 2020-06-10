@@ -6,7 +6,7 @@ package numericMethods13;
 
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class IntegerMethods extends foundation3.Methods {

@@ -5,7 +5,7 @@ package variables6;
 import java.util.Scanner;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Variables 

@@ -4,7 +4,7 @@
 package inputAndOutput5;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Ouput {

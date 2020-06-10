@@ -6,7 +6,7 @@ package switch21;
 import java.util.Scanner;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Switch {

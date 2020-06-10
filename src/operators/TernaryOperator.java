@@ -4,7 +4,7 @@
 package operators;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class TernaryOperator {

@@ -7,7 +7,7 @@ and an example for each one
 package foundation3;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class AccesModifiers {

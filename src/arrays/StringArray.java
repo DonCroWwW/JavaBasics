@@ -4,7 +4,7 @@
 package arrays;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class StringArray {

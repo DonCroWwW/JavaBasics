@@ -4,7 +4,7 @@
 package tryCatch;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class TryCatch {

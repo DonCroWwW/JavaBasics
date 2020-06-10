@@ -4,6 +4,10 @@ package introduction1;
  * 
  */
 
+/**
+ * @author DonCroW
+ *
+ */
 public class CodeCompiling {
 
 	public static void main(String[] args) {

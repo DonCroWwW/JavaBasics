@@ -4,7 +4,7 @@
 package ifElse;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class ifElse {

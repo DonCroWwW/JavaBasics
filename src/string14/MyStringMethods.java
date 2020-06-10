@@ -6,7 +6,7 @@ package string14;
 import java.util.Scanner;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class MyStringMethods {

@@ -4,7 +4,7 @@
 package nestedLoop;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class nestedForLoop {

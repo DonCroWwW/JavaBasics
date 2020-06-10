@@ -4,7 +4,7 @@
 package numericExpresionsAndOperators12;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class NumericExpresions {

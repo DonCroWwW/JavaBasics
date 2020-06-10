@@ -4,7 +4,7 @@
 package argumentsAndParameters4;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Parameters {

@@ -6,7 +6,7 @@ package breakContinue;
 
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Break {

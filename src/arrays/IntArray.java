@@ -5,7 +5,7 @@ package arrays;
 import java.util.Arrays;
 import java.util.Scanner;
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class IntArray {

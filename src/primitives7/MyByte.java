@@ -4,7 +4,7 @@
 package primitives7;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class MyByte {

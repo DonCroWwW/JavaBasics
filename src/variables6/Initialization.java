@@ -4,7 +4,7 @@
 package variables6;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Initialization {

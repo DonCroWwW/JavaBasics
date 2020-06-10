@@ -4,7 +4,7 @@
 package shortcuts2;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class BasicShortcuts {

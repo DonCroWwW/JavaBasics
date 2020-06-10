@@ -4,7 +4,7 @@
 package foundation3;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class Identifier {

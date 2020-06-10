@@ -1,4 +1,12 @@
+/*
+ * 
+ */
 package foundation3;
+
+/**
+ * @author DonCroW
+ *
+ */
 
 public class Object {
 	public void about()

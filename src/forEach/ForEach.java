@@ -5,7 +5,7 @@ package forEach;
 import java.util.*;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class ForEach {

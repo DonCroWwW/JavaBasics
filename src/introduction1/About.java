@@ -3,6 +3,10 @@ package introduction1;
  * when and by who was invented 
  */
 
+/**
+ * @author DonCroW
+ *
+ */
 public class About {
 
 	public static void main(String[] args) {

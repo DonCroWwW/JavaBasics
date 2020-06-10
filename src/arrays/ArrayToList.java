@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * @author Legion
+ * @author DonCroW
  *
  */
 public class ArrayToList {
