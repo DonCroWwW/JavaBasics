@@ -16,19 +16,25 @@ public class Break {
 	 */
 	public static void main(String[] args) {
 
-		int a,b;
-		for(int i=1;i<=10;i++)
+		breakUsage();  // it will break at first odd iteration
+
+	}
+	
+	public static void breakUsage() 
+	{
+		for(int i=0;i<=10;i++)
 		{
 			
-			if((i%2)==0) 
+			if((i%2)!=0) 
 			{
-				continue;
+				
+				System.out.println(i); //code will go on even if the condition is 
+				break;
 			}
 			
-			System.out.println(i);
 				
 		}
-
+		
 	}
 
 	

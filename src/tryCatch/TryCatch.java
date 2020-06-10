@@ -1,4 +1,6 @@
-/**
+/*
+ * 
+ * More to be added on this topic 
  * 
  */
 package tryCatch;
@@ -13,6 +15,10 @@ public class TryCatch {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		basicExample();
+
+	}
+	public static void basicExample(){
 		 int ore[] = {1, 2, 3, 4};
 		 System.out.println(ore[0]);
 		 try
@@ -22,7 +28,6 @@ public class TryCatch {
 		 {
 			 System.out.println(e);
 		 }
-
 	}
-
+	
 }

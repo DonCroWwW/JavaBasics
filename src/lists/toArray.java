@@ -57,7 +57,7 @@ public class toArray extends ListOfLists {
 	}
 
 
-	public static int listOfListsSize(List<List<Integer>> l)
+	public static int listOfListsSize(List<List<Integer>> l) //crosing list and for each element we iterate our counter
 	{	
 		int size=0;
 

@@ -13,6 +13,11 @@ public class CodeCompiling {
 	public static void main(String[] args) {
 		
 
+		about();
+	}
+
+	public static void about()
+	{
 		System.out.println("How is the code I write translated to the computer so he can execute my commands?");
 		System.out.println("Java is <<HIGHER LEVEL LANGUAGE, couple of steps away from talking to the computer directed");
 		System.out.println("When we write java code we get a file.JAVA which is the -SOURCE- code");
@@ -21,5 +26,4 @@ public class CodeCompiling {
 		System.out.println("It's just because we don't wanna REwrite the same file for WINDOWS/MAC/LINUX separtly, we wanna do it by once which works on each OPERATION SISTEMS");
 
 	}
-
 }

@@ -18,8 +18,8 @@ public class Variables
 //		about();
 //	 	ex1(); // basic exemple why we need variables
 //		ex2(); // arguments vs variable
-		 ex3();
-		
+//		ex3(); // diferent ways to initialize a string
+//      ex4(); //final added to a variables make that a constant
 
 	}
 	public static void about()
@@ -79,6 +79,13 @@ public class Variables
     	
     	
     	
+    }
+    
+    public static void ex4()
+    {
+		System.out.println("What if we want a variable that can not be changed? like PI or e? \n we just add final to the declaration of it");
+		final double PI=3.14159;
+		System.out.println("Good to use when we have a global variable that don't need to be changed");
     }
 }
 
