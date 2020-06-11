@@ -37,6 +37,6 @@ public class Object {
 	{
 		System.out.println(objectToBeTested.name);
 		objectToBeTested.method();
-		
+
 	}
 }

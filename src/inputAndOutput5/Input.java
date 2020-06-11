@@ -1,5 +1,5 @@
 /*
-*  folder to be added
+ *  folder to be added
  * 
  */
 package inputAndOutput5;
@@ -21,7 +21,6 @@ public class Input {
 		// inputCast(); // ?/
 
 	}
-
 	public static void keyboardInput()
 	{
 		System.out.println("In Java we need to import <<java.util.Scanner>> in order to input values from the keyboard");
@@ -31,6 +30,7 @@ public class Input {
 		Scanner myKeyboardScanner = new Scanner(System.in);
 
 		String text = myKeyboardScanner.nextLine();
+
 		System.out.println(text);
 
 
@@ -53,8 +53,6 @@ public class Input {
 
 	}
 
-
-
 	public static void scannerEx()
 	{
 		System.out.println("The way we input values is very important, in that way we tell the computer what operations he needs to do");
@@ -62,15 +60,17 @@ public class Input {
 		Scanner myScanner= new Scanner(System.in);
 
 		String string1= new String("this is your string");
+		
 		int inputX;
-		
+
 		System.out.println("Enter the value for your string: ");
+		
 		String inputString=myScanner.next();
-		
+
 		System.out.println("Enter the value for your int");
+		
 		inputX=myScanner.nextInt();
-		
-		
+
 		System.out.println("Good Job! \n Now, it's important for you to know that you have to specify the data type of your inputs "
 				+ "\n Why is that? \n Well, let's see, if you want to use the operator + with your inputs you will get different results"
 				+ "\n That's the result if you +(concatanate) your string:" + string1 +inputString 
@@ -94,21 +94,21 @@ public class Input {
 
 	public static void inputCast()
 	{
-	 System.out.println("Storing an int in a double for some unkown reasons :D ");
-	 
-	 Scanner myScanner = new Scanner(System.in);
-	 System.out.println("Enter an int as input");
-	 double x = myScanner.nextInt();
-	 System.out.println("There is your input as double: "+x);
-	 
-	 System.out.println("What is the other way around? if we have a double, but we only need the main(int) value? ");
-	 
-//	 int y= myScanner.nextDouble();
-	 System.out.println("That's gonna throw an exception, since the zie of an int is 16, but the size of a double is 64 "
-	 		+ "\n Solution? We just force the initialization to an int USING A CAST"
-	 		+ "\n Enter a double: "); 
-	 int y=(int)myScanner.nextDouble();
-	 System.out.println("The main size of your double number: "+y );
+		System.out.println("Storing an int in a double for some unkown reasons :D ");
+
+		Scanner myScanner = new Scanner(System.in);
+		System.out.println("Enter an int as input");
+		double x = myScanner.nextInt();
+		System.out.println("There is your input as double: "+x);
+
+		System.out.println("What is the other way around? if we have a double, but we only need the main(int) value? ");
+
+		//	 int y= myScanner.nextDouble();
+		System.out.println("That's gonna throw an exception, since the zie of an int is 16, but the size of a double is 64 "
+				+ "\n Solution? We just force the initialization to an int USING A CAST"
+				+ "\n Enter a double: "); 
+		int y=(int)myScanner.nextDouble();
+		System.out.println("The main size of your double number: "+y );
 	}
 }
 
