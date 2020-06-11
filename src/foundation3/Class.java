@@ -7,19 +7,21 @@ package foundation3;
  * @author DonCroW
  *
  */
-public class Class {
 
-	public static void exampleProperty ()
+public class Class {
+	String name;  //field
+
+	
+	
+	
+	public static void main(String[] args)
 	{
 
-		String x = new String("This method  is an example of a class property ");
-		System.out.println(x);
+
 	}
-
-
-
 	public static void about()
 	{
+		System.out.println("Think at a class as a BLUEPRINT");
 		System.out.println("Everything in Java is inside of a class");
 		System.out.println("Inside of CLASSES we have METHODS");
 		System.out.println("The >>default<< method in Java it's called >>main<<");
@@ -35,6 +37,13 @@ public class Class {
 
 
 	}
-
+	
+	public static void method()
+	{
+		System.out.println("This method is working");
+	}
+		
+	
+	
 }
 
