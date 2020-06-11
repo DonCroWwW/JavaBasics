@@ -11,14 +11,10 @@ package foundation3;
 public class Class {
 	String name;  //field
 
-	
-	
-	
-	public static void main(String[] args)
-	{
 
 
-	}
+
+
 	public static void about()
 	{
 		System.out.println("Think at a class as a BLUEPRINT");
@@ -37,13 +33,13 @@ public class Class {
 
 
 	}
-	
+
 	public static void method()
 	{
 		System.out.println("This method is working");
 	}
-		
-	
-	
+
+
+
 }
 

@@ -33,6 +33,7 @@ public class BasicShortcuts {
 		System.out.println("alt+up/down moves the rows");
 		System.out.println("alt + left/right changes the tab");
 		System.out.println("Ctrl+f7f8 open perspective");
+		System.out.println("Ctrl shift f4 close all");
 	}
 	
 	public static void mightBeUsefull()
