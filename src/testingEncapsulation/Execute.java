@@ -15,11 +15,9 @@ public class Execute {
 	 */
 	public static void main(String[] args) 
 	{
-
-		PrivateFieldsUser u = new PrivateFieldsUser();
-		u.setInfo("Gigi", 13, true);
-		System.out.println(u.toString());
 		
+	  testingPassing();
+	  
 	}
 
 	public static void testingBothWays()
@@ -74,5 +72,34 @@ public class Execute {
 //	myEncapsulatedUser.name="name"; //error-> this field is not visible
 	myEncapsulatedUser.setName("name"); //that is gonna work
 		
+	}
+
+	public static void testingOverriding()
+	{
+		PrivateFieldsUser u = new PrivateFieldsUser();
+		u.setInfo("Gigi", 13, true);
+		System.out.println(u.toString());
+	}
+	
+	public static void testingPassing()
+	{	
+		PrivateFieldsUser u = new PrivateFieldsUser();
+		u.setInfo("Gigi", 13, true);
+		int x=13;
+		System.out.println(u.toString());
+		System.out.println("Value of x is: "+x);
+		for(int i=0;i<=1;i++)
+		{
+		u.incrementAge();
+		System.out.println("Am incrementat u.age"+u.toString());
+		System.out.println("Am incrementat valoarea lui:"+x);
+		
+		
+		
+		}
+	}
+	public static void increment(int n)
+	{
+		n++;
 	}
 }

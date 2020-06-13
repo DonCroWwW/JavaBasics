@@ -59,6 +59,10 @@ public class PrivateFieldsUser extends User{
 		return "PrivateFieldsUser: Name="+ getName() + " Age=" + getAge() + " Sex=" + getSex();
 	}
 
+	public  void incrementAge()
+	{ this.age++;
+		
+	}
 	
 	
 }
