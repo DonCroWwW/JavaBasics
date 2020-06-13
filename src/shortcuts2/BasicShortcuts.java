@@ -39,7 +39,8 @@ public class BasicShortcuts {
 	public static void mightBeUsefull()
 	{
 		// System.identityHashCode(obj).  to find the pointer value of an object
-		
+		// to OVERRIDE some methods like: to string/ equals or so just right click-> source (alt shift a) generate method u need 
+		// alt shift R to  rename
 	}
 	
 }
