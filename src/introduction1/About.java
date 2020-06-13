@@ -1,6 +1,7 @@
 package introduction1;
 /* I should add here some general info like :
  * when and by who was invented 
+ * important updates and so on
  */
 
 /**
@@ -9,14 +10,13 @@ package introduction1;
  */
 public class About {
 
-	public static void main(String[] args) {
-		about();
 
-	}
 
-	public static void about() {
-		System.out.println("About java");
+	public static void about() 
+	{
 		System.out.println("How java really works?");
+		CodeCompiling.about();
+		JavaDevelopmentKit.about();
 	}
 
 

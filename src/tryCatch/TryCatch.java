@@ -23,7 +23,7 @@ public class TryCatch {
 		 System.out.println(ore[0]);
 		 try
 		 {
-			 System.out.println(ore[100]);
+			 System.out.println(ore[100]);               //it will return a compile error: out of bounds
 		 } catch (Exception e)
 		 {
 			 System.out.println(e);

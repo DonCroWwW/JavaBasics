@@ -13,7 +13,12 @@ public class PrivateFieldsUser extends User{
 	private boolean sex;
 
 
-
+	public void setInfo(String chosenName, int chosenAge,boolean chosenSex)
+	{
+		setName(chosenName);
+		setAge(chosenAge);
+		setSex(chosenSex);
+	}
 	public  void setName(String chosenName)
 	{
 		this.name=chosenName;
@@ -49,5 +54,11 @@ public class PrivateFieldsUser extends User{
 	{
 		System.out.println(this.getName()+" "+this.getAge()+" "+this.getSex());
 	}
+	@Override
+	public String toString() {
+		return "PrivateFieldsUser: Name="+ getName() + " Age=" + getAge() + " Sex=" + getSex();
+	}
+
+	
 	
 }

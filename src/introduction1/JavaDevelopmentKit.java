@@ -7,11 +7,7 @@ package introduction1;
 public class JavaDevelopmentKit {
 
 
-	public static void main(String[] args) {
 
-		about();
-
-}
 	public static void about() {
 		System.out.println("What is a JDK?");
 		System.out.println("It gives us all the tools to program in Java");

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package overloading;
+package overLoading;
 
 /**
  * @author DonCroW
