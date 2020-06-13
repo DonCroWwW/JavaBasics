@@ -10,7 +10,7 @@ package testingEncapsulation;
 
 public abstract class User {
 
-   public static void about()
+   public  void about()
    {
 	   System.out.println("This is gonna be used to test different things");
    }
