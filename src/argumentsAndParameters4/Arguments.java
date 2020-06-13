@@ -12,13 +12,9 @@ public class Arguments {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
-		//	about();
-
-		//runByTerminal(args[0]);// Exemple of how to use arguments in a terminal
-
-	}
-
+	
+	
+	//runByTerminal(args[0]);// Exemple of how to use arguments in a terminal
 
 
 	public static void about()
