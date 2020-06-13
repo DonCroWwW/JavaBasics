@@ -13,18 +13,13 @@ import testingEncapsulation.PrivateFieldsUser;
  *
  */
 public class ArrayListCustoms {
-
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args)
 	{
 		loopMethod();
-		
-
 	}
-	
-	
 	public static void workingMethod() //creating a list of type PrivateFieldsUser
 	{
 		PrivateFieldsUser user1= new PrivateFieldsUser();
@@ -67,13 +62,13 @@ public class ArrayListCustoms {
 			user.setAge(ages[i]);
 			user.setSex(sex[i]);
 			user.setName(names[i]);
+			myList.add(user);
 //			user.getInfo();   //just to display the diferences
 //			doubleAge(user);  // using a method which takes List of costum types as arguent
-			user.getInfo();
-		}
-		
-		
-		
+//			user.getInfo();
+
+		}		
+		search(myList,"Ana",20);	
 	}
 	
 	public static void doubleAge(PrivateFieldsUser u) //  a method which takes List of costum types as arguent
@@ -81,4 +76,18 @@ public class ArrayListCustoms {
 		u.setAge(u.getAge()*2);
 
 	}
+	
+	public static void search(List<PrivateFieldsUser> listOfUsers,String name,int age)
+	{
+
+		for (int i=0;i<listOfUsers.size();i++)
+		{
+			if((listOfUsers.get(i).getName()).equals(name)&&(listOfUsers.get(i).getAge()==age))
+				listOfUsers.get(i).getInfo();	
+				
+		
+		}
+
+		
+    }
 }

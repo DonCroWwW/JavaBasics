@@ -16,13 +16,15 @@ public class Execute {
 	public static void main(String[] args) 
 	{
 
-		
+		PrivateFieldsUser u = new PrivateFieldsUser();
+		u.setInfo("Gigi", 13, true);
+		System.out.println(u.toString());
 		
 	}
 
 	public static void testingBothWays()
 	{  
-		System.out.println("Creating an object of a class without using encapsulation: ");
+		System.out.println("Creating an object of a class  without using encapsulation: ");
 		defaultCreateAndPrint();
 		System.out.println("Creating an object of a class  using encapsulation: ");
 		encapsulationCreateAndPrint();
@@ -44,6 +46,7 @@ public class Execute {
 		return user;
 
 	}
+	
 	public static void printAnUser(PublicFieldsUser a)
 
 	{
