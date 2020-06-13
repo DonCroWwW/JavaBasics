@@ -14,4 +14,10 @@ public class Methods {
 	{
 		System.out.println("Method are basically functions");	
 	}
+	
+	public static void signature()
+	{
+		System.out.println("The signature of a method is the parameters of the method");
+		System.out.println("The return type of the method isn't a part of the method signature");
+	}
 }
