@@ -20,4 +20,12 @@ public class Fields {
 
 	}
 
+	
+	public static void readOnlyFields()
+	{
+		System.out.println("To achieve read only fields in a class u need :");
+		System.out.println("An abstract class");
+		System.out.println("To set the field to private in your class");
+		System.out.println("A non-static Contstructor who initialize the fields");
+	}
 }

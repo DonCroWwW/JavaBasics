@@ -14,9 +14,9 @@ public class ProtectedModifier extends foundation3.AccesModifiers{
 	 */
 	public static void main(String[] args) {
 		scopeInJava();
-		scopeOfPrivate();
+		scopeOfProtected();
 	}
-	public static void scopeOfPrivate ()
+	public static void scopeOfProtected ()
 	{
 		System.out.print(" \n \t\t DENY  ");	//GLOBAL
 		System.out.print(" \t\t ALLOW  ");		//PACKAGE
