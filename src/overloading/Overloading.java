@@ -3,7 +3,7 @@
  */
 package overLoading;
 
-import foundation3.Methods;
+import foundation.Methods;
 
 /**
  * @author DonCroW

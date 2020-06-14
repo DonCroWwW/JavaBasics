@@ -7,7 +7,7 @@ package accesModifiers;
  * @author DonCroW
  *
  */
-public class ProtectedModifier extends foundation3.AccesModifiers{
+public class ProtectedModifier extends foundation.AccesModifiers{
 
 	/**
 	 * @param args
